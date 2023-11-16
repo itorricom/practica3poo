@@ -3,7 +3,7 @@ package Ejercicio3_2ClaseString;
 import java.sql.SQLOutput;
 
 public class Cadena {
-    String cadenaInicial = " Programacion Orientada a Objetos ";
+    String cadenaInicial = "   Programacion Orientada a Objetos   ";
 
     //Metodo main
     public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class Cadena {
         System.out.println("Cadena extraido = "+cadenaExtraida);
 
         //Reemplazar en el String (obtenido en el paso anterior) el carácter “o” por “O”.
-        String cadenaReemplazada = cadenaExtraida.replace("O","X");
+        String cadenaReemplazada = cadenaExtraida.replace("o","O");
         System.out.println("Cadena remplazada = "+cadenaReemplazada);
 
         //Comparar el String (obtenido en el paso anterior) con el String “Programación”.
